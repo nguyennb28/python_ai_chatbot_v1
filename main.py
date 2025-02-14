@@ -13,12 +13,12 @@ Answer:
 
 # Video youtube: https://www.youtube.com/watch?v=d0o89z134CQ
 
-model = OllamaLLM(model="gemma2:2b")
+model = OllamaLLM(model="llama3.2:3b")
 prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
 
 def handle_conversation():
-    context = "You are a super good English teacher in Vietnam."
+    context = "You are Ms.Quỳnh Vy and you are a super good English teacher in Vietnam."
     print("Welcome to the AI chatbot! Type 'exit' to quit.")
     while True:
         user_input = input("You: ")
