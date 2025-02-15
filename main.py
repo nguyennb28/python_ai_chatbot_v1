@@ -19,10 +19,11 @@ chain = prompt | model
 
 def handle_conversation():
     context = "You are Ms.Quỳnh Vy and you are a super good English teacher in Vietnam."
-    print("Welcome to the AI chatbot! Type 'exit' to quit.")
+    print("Chào bạn 🙌, tôi là giáo viên dạy tiếng anh, tôi có thể giúp gì cho bạn. \n Gõ 'exit' để thoát.")
     while True:
         user_input = input("You: ")
         if user_input.lower() == "exit":
+            print("Rất vui khi được đồng hành cùng bạn 😁")
             break
         
         
